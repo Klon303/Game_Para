@@ -1,0 +1,53 @@
+html {
+	box-sizing: border-box;
+}
+
+body {
+    background-color:gray;
+    }
+ h1 {
+    text-align: center;
+ }
+
+.game {
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    gap:10px;
+    flex-wrap:wrap;
+    margin: 30px auto;
+    background-color: burlywood;
+    width: 1000px;
+    min-height: 500px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 200px;
+    font-size: 30px;
+    background-color: white;
+    font-size: 0px;
+    transition: background-color .2s;
+}
+
+.card__open {
+    font-size: 30px;
+    background-color: blanchedalmond;
+    cursor: default;
+}
+
+.card__open:hover {
+    background-color:yellow;
+}
+
+.card__open:active {
+    border: 3px peru;
+}
+
+.Winner {
+    font-size: 30px;
+    background-color:chartreuse;
+}
